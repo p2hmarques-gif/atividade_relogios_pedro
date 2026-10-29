@@ -1,0 +1,68 @@
+/* Retira os espaçamentos padrões dos elementos */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a cor de fundo, a cor do texto e a fonte */
+body{
+    background-color:  #f2f4f7;
+    color: #243142;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo e limita sua largura */
+.container{
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Formata o título da página */
+h1{
+    color: #1f3a5f;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Identificação do aluno, abaixo do título */
+.aluno{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Define a aparência geral da tabela */
+table{
+    background-color:  #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Adiciona bordas e espaços nas células */
+th, td{
+    border: 1px solid #d1d5db;
+    padding: 14px;
+    text-align: left;
+}
+
+/* Destaca os títulos das colunas */
+th{
+    background-color: #1f3a5f;
+    color: #ffffff;
+}
+
+/* Alterna a cor das linhas pares para facilitar a leitura */
+tr:nth-child(even){
+   background-color:  #f4f7fb;
+}
+
+/* Muda a cor da linha quando o mouse passa sobre ela */
+tr:hover{
+    background-color:  #e5efff;
+}
+
+/* Coloca os valores dos preços em negrito */
+.preco{
+    font-weight: bold;
+}
